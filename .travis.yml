@@ -2,5 +2,7 @@ language: node_js
 node_js:
 - "v12.16.3"
 deploy:
-provider: azure_web_apps
-verbose: true
+  provider: azure_web_apps
+  username: shayaan       # If AZURE_WA_USERNAME isn't set
+  password: Shayaan@97   # If AZURE_WA_PASSWORD isn't set
+  site: testEIE2020
