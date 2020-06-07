@@ -113,4 +113,7 @@ typings/
 # Ignore all local history of files
 .history
 
+#JSON FILES
+.json
+
 # End of https://www.toptal.com/developers/gitignore/api/git,node,visualstudiocode
